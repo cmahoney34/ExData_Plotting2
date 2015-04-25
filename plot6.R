@@ -1,4 +1,4 @@
-# Plot5
+# Plot6
 # Let's do this in ggplot
 
 library(ggplot2)

@@ -16,6 +16,6 @@ emissionsTotal_Balt <- aggregate(subsetNEI$Emissions, by=list(subsetNEI$year), F
 # Build Plot2
 png(filename="plot2.png", height=480, width=480, units = "px")
 plot(emissionsTotal_Balt, type = "l", xlab = "Year", 
-     main = "Baltimore City PM2.5 Emission (1999-2008)",
+     main = "Baltimore City PM2.5 Emissions (1999-2008)",
      ylab = "PM2.5 Emission", col = "purple")
 dev.off()
